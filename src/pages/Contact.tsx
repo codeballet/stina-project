@@ -25,7 +25,7 @@ export function Contact(): ReactElement {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <button className="contact-button">Donwload CV</button>
+                    <button className="contact-button">Download CV</button>
                 </Link>
             </div>
         </div>
