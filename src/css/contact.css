@@ -1,0 +1,37 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    figure {
+        display: flex;
+        justify-content: flex-start;
+        margin: 1rem;
+
+        img {
+            max-width: 100%;
+            max-height: 50vh;
+            object-fit: contain;
+        }
+    }
+
+    .contact-content {
+        margin: 0.5rem 1rem;
+
+        p {
+            margin-top: 1rem;
+        }
+    }
+
+    .contact-download {
+        margin: 1rem;
+
+        a {
+            .contact-button {
+                background-color: var(--color-nav);
+                color: var(--color-background);
+                font-weight: 600;
+                padding: 0.5rem;
+            }
+        }
+    }
+}

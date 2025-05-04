@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0.5rem;
+    right: 0;
+
+    .nav-burger {
+        .burger-button {
+            justify-self: flex-end;
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            color: var(--color-background);
+            border: none;
+            box-shadow: none;
+            margin-right: 1rem;
+        }
+    }
+}

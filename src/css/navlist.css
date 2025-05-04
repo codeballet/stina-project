@@ -1,0 +1,13 @@
+.nav-burger-list {
+    background-color: var(--color-nav-transparent);
+    list-style: none;
+    padding: 1rem 1rem 0.5rem 1rem;
+
+    li {
+        margin: 0.5rem 0 0.5rem 0;
+
+        a {
+            color: var(--color-background);
+        }
+    }
+}
