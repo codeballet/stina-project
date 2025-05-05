@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { Link } from "react-router-dom";
-import ExamplePdf from "../assets/example.pdf";
+import cvpdf from "../assets/cv-stina.pdf";
 
 export function Contact(): ReactElement {
     return (
@@ -20,8 +20,8 @@ export function Contact(): ReactElement {
 
             <div className="contact-download">
                 <Link
-                    to={ExamplePdf}
-                    download="Example-PDF-document"
+                    to={cvpdf}
+                    download="cv-stina-nilsson"
                     target="_blank"
                     rel="noreferrer"
                 >
