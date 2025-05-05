@@ -9,7 +9,7 @@ export function Contact(): ReactElement {
             <article className="contact-content">
                 <h3>Contact</h3>
                 <p>stina.nilsson@email.com</p>
-                <p>+46 761 1111</p>
+                <p>+46 762 1111</p>
             </article>
             <figure>
                 <img
