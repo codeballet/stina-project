@@ -2,12 +2,13 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap: 1rem;
     padding: 4rem 1rem 0 1rem;
 
     figure {
+        margin-top: 2rem;
         display: flex;
         justify-content: center;
         width: 100%;
