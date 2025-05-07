@@ -17,7 +17,7 @@
 
     --color-background: #f0f0f0;
     --color-nav: rgb(87, 87, 87);
-    --color-nav-transparent: rgb(87, 87, 87, 0.95);
+    --color-nav-transparent: rgb(87, 87, 87, 0.9);
 }
 
 body {
@@ -32,10 +32,6 @@ button {
     cursor: pointer;
 }
 
-.header-space {
-    height: 2.5rem;
-}
-
 .material-symbols-outlined {
-    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 0, "opsz" 48;
 }

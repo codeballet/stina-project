@@ -1,13 +1,17 @@
 .nav-burger-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     background-color: var(--color-nav-transparent);
     list-style: none;
-    padding: 1rem 1rem 0.5rem 1rem;
+    padding: 2rem 1.5rem 1.5rem 2rem;
 
     li {
-        margin: 0.5rem 0 0.5rem 0;
+        /* margin-bottom: 2rem; */
 
         a {
             color: var(--color-background);
+            font-size: 1.3rem;
         }
     }
 }

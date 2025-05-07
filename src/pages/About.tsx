@@ -3,9 +3,8 @@ import { ReactElement } from "react";
 export function About(): ReactElement {
     return (
         <div className="about">
-            <div className="header-space"></div>
             <article className="about-content">
-                <h3>About</h3>
+                <h2>About</h2>
                 <p>
                     Stina Nilsson excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id

@@ -5,9 +5,8 @@ import cvpdf from "../assets/cv-stina.pdf";
 export function Contact(): ReactElement {
     return (
         <div className="contact">
-            <div className="header-space"></div>
             <article className="contact-content">
-                <h3>Contact</h3>
+                <h2>Contact</h2>
                 <p>stina.nilsson@email.com</p>
                 <p>+46 762 1111</p>
             </article>
