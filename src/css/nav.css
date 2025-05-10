@@ -21,4 +21,31 @@
             }
         }
     }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-list {
+        background-color: var(--color-nav-transparent);
+        padding: 2rem 1.5rem 1.5rem 2rem;
+    }
+}
+
+@media (min-width: 720px) {
+    .nav {
+        position: static;
+
+        .nav-burger {
+            display: none;
+        }
+
+        .nav-list {
+            display: none;
+        }
+
+        .nav-desktop {
+            display: flex;
+        }
+    }
 }

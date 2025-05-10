@@ -6,7 +6,9 @@ export function App(): ReactElement {
     return (
         <>
             <Header />
-            <Outlet />
+            <main className="main">
+                <Outlet />
+            </main>
         </>
     );
 }

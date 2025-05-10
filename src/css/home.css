@@ -27,3 +27,13 @@
         gap: 1rem;
     }
 }
+
+@media (min-width: 720px) {
+    .home {
+        .home-text {
+            flex-direction: row;
+            gap: 4rem;
+            margin-top: 1rem;
+        }
+    }
+}

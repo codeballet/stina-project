@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export function NavList(): ReactElement {
     return (
-        <ul className="nav-burger-list">
+        <ul className="nav-list-items">
             <li>
                 <Link to="/">
                     <h4>Home</h4>

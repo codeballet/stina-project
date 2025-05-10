@@ -19,12 +19,16 @@ export function Nav({ open, openCallback }: INavBurgerProps): ReactElement {
                     </span>
                 </button>
             </section>
-            <section className="nav-list">
-                {open && (
-                    <div onClick={() => openCallback(!open)}>
-                        <NavList />
-                    </div>
-                )}
+            {open && (
+                <section
+                    className="nav-list"
+                    onClick={() => openCallback(!open)}
+                >
+                    <NavList />
+                </section>
+            )}
+            <section className="nav-desktop">
+                <NavList />
             </section>
         </nav>
     );

@@ -1,17 +1,19 @@
-.nav-burger-list {
+.nav-list-items {
+    list-style: none;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    background-color: var(--color-nav-transparent);
-    list-style: none;
-    padding: 2rem 1.5rem 1.5rem 2rem;
 
     li {
-        /* margin-bottom: 2rem; */
-
         a {
             color: var(--color-background);
             font-size: 1.3rem;
         }
+    }
+}
+
+@media (min-width: 720px) {
+    .nav-list-items {
+        flex-direction: row;
     }
 }
