@@ -26,11 +26,17 @@ export function About(): ReactElement {
                     aliqua.
                 </p>
             </article>
-            <figure>
-                <img
-                    src="https://plus.unsplash.com/premium_photo-1684966119369-c8fb5f1540b9?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxkYW5jZXJ8ZW58MHx8MHx8fDA%3D"
-                    alt="Stina dancing"
-                />
+            <figure className="about-figure">
+                <div className="about-figure-container">
+                    <img
+                        className="about-figure-img"
+                        src="https://plus.unsplash.com/premium_photo-1684966119369-c8fb5f1540b9?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxkYW5jZXJ8ZW58MHx8MHx8fDA%3D"
+                        alt="Stina dancing"
+                    />
+                    <figcaption className="about-figure-credits">
+                        <p>Photographer: Some Photographer</p>
+                    </figcaption>
+                </div>
             </figure>
         </div>
     );

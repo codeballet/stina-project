@@ -14,15 +14,23 @@
         }
     }
 
-    figure {
+    .about-figure {
         display: flex;
+        /* flex-direction: column; */
         justify-content: center;
         margin: 1rem;
 
-        img {
-            max-width: 100%;
-            max-height: 50vh;
-            object-fit: contain;
+        .about-figure-container {
+            .about-figure-img {
+                max-width: 100%;
+                max-height: 50vh;
+                object-fit: contain;
+            }
+
+            .about-figure-credits {
+                align-self: flex-start;
+                font-size: 0.8rem;
+            }
         }
     }
 }
