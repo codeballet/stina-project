@@ -1,9 +1,100 @@
 .projects {
+    display: flex;
+    justify-content: center;
+
     .projects-content {
         padding: 4rem 1rem 0 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
 
-        h2 {
-            margin-top: 1rem;
+        .projects-cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            gap: 0.8rem;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                gap: 0.3rem;
+                border-bottom: 2px solid var(--color-nav-transparent);
+
+                .card-article {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.3rem;
+                    margin-bottom: 0.5rem;
+
+                    .card-location-date {
+                        display: flex;
+                        flex-direction: row;
+                        font-style: italic;
+
+                        .card-location-detail::after {
+                            content: ", ";
+                            white-space: pre;
+                        }
+
+                        .card-date-detail::after {
+                            content: ".";
+                        }
+                    }
+                }
+
+                .card-figure {
+                    display: flex;
+                    flex-direction: column;
+
+                    img {
+                        max-width: 60%;
+                        max-height: 20vh;
+                        object-fit: contain;
+                    }
+
+                    .card-img-credits {
+                        p {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .projects-title {
+            align-self: flex-start;
+            margin-block: 1rem 0.3rem;
+        }
+    }
+}
+
+@media (min-width: 720px) {
+    .projects {
+        .projects-content {
+            .projects-cards {
+                .card {
+                    flex-direction: row;
+                    gap: 1rem;
+                    width: 100%;
+
+                    .card-article {
+                        width: 80rem;
+                    }
+
+                    .card-figure {
+                        padding-top: 0.3rem;
+                        height: min-content;
+                        margin-bottom: 0.2rem;
+
+                        img {
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                }
+            }
         }
     }
 }
