@@ -15,5 +15,6 @@
 @media (min-width: 720px) {
     .nav-list-items {
         flex-direction: row;
+        /* justify-self: flex-end; */
     }
 }

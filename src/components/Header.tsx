@@ -8,7 +8,7 @@ export function Header(): ReactElement {
     return (
         <header className="header">
             <Link
-                // never open hamburger menu when link is clicked
+                // close hamburger menu when link is clicked
                 onClick={() =>
                     isOpen ? setIsOpen(!isOpen) : setIsOpen(isOpen)
                 }
