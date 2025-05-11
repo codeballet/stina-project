@@ -1,6 +1,7 @@
 .about {
     display: flex;
     flex-direction: column;
+    margin-right: 1rem;
     padding: 1rem;
     gap: 1rem;
 
@@ -11,19 +12,19 @@
     }
 
     .about-figure {
-        display: flex;
-        flex-direction: column;
+        width: 100%;
 
         .about-figure-container {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             width: 100%;
+            /* max-width: 100%; */
 
             .about-figure-img {
-                max-height: 50vh;
+                max-height: 40vh;
+                max-width: 90vw;
                 object-fit: contain;
-                max-width: 100%;
             }
 
             .about-figure-credits {

@@ -20,6 +20,10 @@
                     font-size: 32px;
                 }
             }
+
+            .burger-button:hover {
+                color: var(--color-hover);
+            }
         }
 
         .nav-list {

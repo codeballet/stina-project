@@ -19,7 +19,8 @@
     text-decoration: none;
 
     --color-background: #f0f0f0;
-    --gradient-dark: #b6bec2;
+    --color-gradient-dark: #b6bec2;
+    --color-hover: rgb(255, 255, 166);
     --color-nav: rgb(87, 87, 87);
     --color-nav-transparent: rgb(87, 87, 87, 0.9);
 }
@@ -30,6 +31,10 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
+
+    a:hover {
+        color: var(--color-hover);
+    }
 
     button {
         border: none;
@@ -42,13 +47,15 @@ body {
     }
 
     #root {
+        /* display: flex; */
         width: 100%;
         max-width: 720px;
         background-image: linear-gradient(
             160deg,
             var(--color-background),
-            var(--gradient-dark)
+            var(--color-gradient-dark)
         );
         min-height: 100vh;
+        /* margin-right: 2rem; */
     }
 }

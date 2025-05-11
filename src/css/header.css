@@ -11,8 +11,12 @@
     width: 100%;
     max-width: 720px;
 
-    h1 {
+    .header-title {
         width: max-content;
         color: var(--color-background);
+    }
+
+    .header-title:hover {
+        color: var(--color-hover);
     }
 }

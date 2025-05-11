@@ -17,6 +17,10 @@
                     font-weight: 600;
                     padding: 0.5rem;
                 }
+
+                .contact-button:hover {
+                    color: var(--color-hover);
+                }
             }
         }
     }
