@@ -27,7 +27,6 @@
     .contact-figure {
         margin: 1.2rem 1rem 1rem 1rem;
         display: flex;
-        justify-content: center;
 
         .contact-figure-container {
             display: flex;
