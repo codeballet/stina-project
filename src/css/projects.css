@@ -28,22 +28,8 @@
                     align-items: flex-start;
                     gap: 0.3rem;
                     padding-bottom: 0.5rem;
-
-                    .card-location-date {
-                        display: flex;
-                        flex-direction: row;
-                        font-style: italic;
-
-                        .card-location-detail::after {
-                            content: ", ";
-                            white-space: pre;
-                        }
-
-                        .card-date-detail::after {
-                            content: ".";
-                        }
-                    }
                 }
+
                 .card-figure {
                     display: flex;
                     flex-direction: column;
@@ -91,6 +77,10 @@
                             max-width: 100%;
                             max-height: 100%;
                             object-fit: contain;
+                        }
+
+                        .card-img-credits {
+                            margin-bottom: 0.5rem;
                         }
                     }
                 }

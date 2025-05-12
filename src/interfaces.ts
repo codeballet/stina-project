@@ -1,8 +1,7 @@
 export interface IProject {
+    id: number;
     img: string;
     credits: string;
     title: string;
-    date: string;
-    place: string;
     info: string;
 }

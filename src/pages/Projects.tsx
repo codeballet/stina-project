@@ -22,14 +22,6 @@ export function Projects(): ReactElement {
                             </figure>
                             <article className="card-article">
                                 <h3 className="card-title">{project.title}</h3>
-                                <section className="card-location-date">
-                                    <p className="card-location-detail">
-                                        {project.place}
-                                    </p>
-                                    <p className="card-date-detail">
-                                        {project.date}
-                                    </p>
-                                </section>
                                 <p className="card-info">{project.info}</p>
                             </article>
                         </div>
