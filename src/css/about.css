@@ -6,8 +6,18 @@
     gap: 1rem;
 
     .about-content {
-        p {
-            margin-top: 0.5rem;
+        .about-content-title {
+            margin-bottom: 0.5rem;
+        }
+
+        .about-content-paragraphs {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            
+            p {
+                text-align: justify;
+            }
         }
     }
 

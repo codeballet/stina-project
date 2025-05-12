@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import imgHeroUrl from "../assets/img-stina-hero.jpg";
+import imgHeroUrl from "../assets/imgs/img-stina-hero-web.jpg";
 
 export function Home(): ReactElement {
     return (

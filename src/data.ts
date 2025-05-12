@@ -1,9 +1,9 @@
-import imgUrl from "./assets/img-stina-hero.jpg";
+import imgHeroUrl from "./assets/imgs/img-stina-hero-web.jpg";
 import { IProject } from "./interfaces";
 
 export const projects: IProject[] = [
     {
-        img: imgUrl,
+        img: imgHeroUrl,
         credits: "Firstname Surname",
         title: "Some work title",
         date: "1 April 2025",
@@ -11,7 +11,7 @@ export const projects: IProject[] = [
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utenim ad minim veniam, quis nostrud exercitation ullamcolaboris. Duis aute irure dolor in reprehenderit involuptate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utenim ad minim veniam, quis nostrud exercitation ullamcolaboris. Duis aute irure dolor in reprehenderit involuptate.",
     },
     {
-        img: imgUrl,
+        img: imgHeroUrl,
         credits: "Firstname Surname",
         title: "Some work title",
         date: "1 April 2025",
@@ -19,7 +19,7 @@ export const projects: IProject[] = [
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utenim ad minim veniam, quis nostrud exercitation ullamcolaboris. Duis aute irure dolor in reprehenderit involuptate.",
     },
     {
-        img: imgUrl,
+        img: imgHeroUrl,
         credits: "Firstname Surname",
         title: "Some work title",
         date: "1 April 2025",
@@ -27,7 +27,7 @@ export const projects: IProject[] = [
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utenim ad minim veniam, quis nostrud exercitation ullamcolaboris. Duis aute irure dolor in reprehenderit involuptate.",
     },
     {
-        img: imgUrl,
+        img: imgHeroUrl,
         credits: "Firstname Surname",
         title: "Some work title",
         date: "1 April 2025",
@@ -35,7 +35,7 @@ export const projects: IProject[] = [
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utenim ad minim veniam, quis nostrud exercitation ullamcolaboris. Duis aute irure dolor in reprehenderit involuptate.",
     },
     {
-        img: imgUrl,
+        img: imgHeroUrl,
         credits: "Firstname Surname",
         title: "Some work title",
         date: "1 April 2025",
@@ -43,7 +43,7 @@ export const projects: IProject[] = [
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utenim ad minim veniam, quis nostrud exercitation ullamcolaboris. Duis aute irure dolor in reprehenderit involuptate.",
     },
     {
-        img: imgUrl,
+        img: imgHeroUrl,
         credits: "Firstname Surname",
         title: "Some work title",
         date: "1 April 2025",
