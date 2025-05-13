@@ -14,7 +14,7 @@ export function Header(): ReactElement {
                 }
                 to="/"
             >
-                <h1 className="header-title">Stina Nilsson</h1>
+                <h1 id="header-title">Stina Nilsson</h1>
             </Link>
             <Nav open={isOpen} openCallback={setIsOpen} />
         </header>

@@ -5,20 +5,38 @@
     gap: 1rem;
     padding: 1rem;
 
-    .home-figure {
+    .home-hero {
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        .home-figure-img {
+        .home-hero-img {
             max-height: 50vh;
             width: 100%;
             object-fit: contain;
         }
 
-        .home-figure-credits {
+        .home-hero-credits {
             align-self: flex-start;
             font-size: 0.8rem;
+        }
+    }
+
+    .home-images {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+        .home-image {
+            flex-grow: 1;
+
+            .home-image-pic {
+                width: 100%;
+            }
+
+            .home-image-caption {
+                font-size: 0.8rem;
+            }
         }
     }
 

@@ -11,12 +11,12 @@
     width: 100%;
     max-width: 720px;
 
-    .header-title {
+    #header-title {
         width: max-content;
         color: var(--color-background);
     }
 
-    .header-title:hover {
+    #header-title:hover {
         color: var(--color-hover);
     }
 }

@@ -21,8 +21,8 @@
     --color-background: #f0f0f0;
     --color-gradient-dark: #b8ced8;
     --color-hover: rgb(255, 255, 166);
-    --color-nav: rgb(87, 87, 87);
-    --color-nav-transparent: rgb(87, 87, 87, 0.9);
+    --color-nav: rgb(70, 70, 70);
+    --color-nav-transparent: rgb(70, 70, 70, 0.9);
 }
 
 body {
@@ -31,6 +31,14 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
+
+    a,
+    h2,
+    h3,
+    h4,
+    p {
+        color: var(--color-nav);
+    }
 
     a:hover {
         color: var(--color-hover);
