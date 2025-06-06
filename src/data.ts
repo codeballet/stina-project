@@ -40,14 +40,14 @@ export const projects: IProject[] = [
         img: imgProject03Url,
         credits: "Photo: Marcus Gyllborg",
         title: "NECESSITIES ",
-        info: "Improvisation collaboration between Ingo Reulecke and Stina Nilsson, dance and Klaus Janek, double bass/electronics. Fylkingen in Stockholm, Konstnärshuset Svavel och Birkagårdens Folkets hus in Jönköping 2024",
+        info: "Improvisation collaboration between Ingo Reulecke and Stina Nilsson, dance and Klaus Janek, double bass/electronics. Fylkingen in Stockholm, Konstnärshuset Svavel and Birkagårdens Folkets hus in Jönköping 2024",
     },
     {
         id: 4,
         img: imgProject04Url,
         credits: "Photo: Marcus Gyllborg",
         title: "KOLOSSAL FRIHET",
-        info: "Performance about death, hope and vacuum cleaning. Site specific in a rhododhendron bush 2024. Dance and choreography: Stina Nilsson. Light design: Evelina Dembacke. Sound: Camilla Wahlstedt. Supported by Musik- och teatervänner, Riksteatern och Jönköpings kommun.",
+        info: "Performance about death, hope and vacuum cleaning. Site specific in a rhododhendron bush 2024. Dance and choreography: Stina Nilsson. Light design: Evelina Dembacke. Sound: Camilla Wahlstedt. Supported by Musik- and teatervänner, Riksteatern och Jönköpings kommun.",
     },
     {
         id: 5,
@@ -124,7 +124,7 @@ export const projects: IProject[] = [
         img: imgProject15Url,
         credits: "Photo: Evelina Dembacke",
         title: "ART ZONE 1, 2 AND 3",
-        info: "Art installations in abandoned shop premises in city centers around Jönköping. With dancer Isabell Karlsson, light artist Evelina Dembacke and painter Helena Boström. 2020 - 2021. Supported by Tranås Kommun, Region Jönköpings län, Studio SIlk.",
+        info: "Art installations in abandoned shop premises in city centers around Jönköping. With dancer Isabell Karlsson, light artist Evelina Dembacke and painter Helena Boström. 2020 - 2021. Supported by Tranås Kommun, Region Jönköpings län, Studio Silk.",
     },
     {
         id: 16,

@@ -1,6 +1,4 @@
 import { ReactElement } from "react";
-import { Link } from "react-router-dom";
-import cvpdf from "../assets/cv-stina.pdf";
 import imgContactUrl from "../assets/imgs/img-stina-contact-web.jpg";
 
 export function Contact(): ReactElement {
@@ -8,18 +6,18 @@ export function Contact(): ReactElement {
         <div className="contact">
             <article className="contact-content">
                 <h2>Contact</h2>
-                <p>stina.margareta.nilsson@gmail.com</p>
-                <p>Instagram: @stinadansar</p>
-                <div className="contact-download">
-                    <Link
-                        to={cvpdf}
-                        download="cv-stina-nilsson"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <button className="contact-button">Download CV</button>
-                    </Link>
-                </div>
+                <a
+                    className="contact-details"
+                    href="mailto:stina.margareta.nilsson@gmail.com?subject=Website inquiry"
+                >
+                    stina.margareta.nilsson@gmail.com
+                </a>
+                <a
+                    className="contact-details"
+                    href="https://www.instagram.com/stinadansar/"
+                >
+                    Instagram: @stinadansar
+                </a>
             </article>
             <figure className="contact-figure">
                 <img
