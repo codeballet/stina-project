@@ -1,5 +1,5 @@
 Done: Take away button for CV download.
-N/A: Train Stina to do website updates.
 Done: Favicon.
 DONE: Spelling corrections on projects.
-First page design.
+DONE: First page design.
+DONE: contact links.
