@@ -9,7 +9,8 @@
     position: fixed;
     z-index: 1;
     width: 100%;
-    max-width: 720px;
+    /* max-width: 720px; */
+    max-width: 1080px;
 
     #header-title {
         width: max-content;
